@@ -1,0 +1,3 @@
+# 统一使用 LF 换行,保证在 Linux/WSL 下可直接构建(Makefile/脚本对 CRLF 敏感)
+* text=auto eol=lf
+*.png binary

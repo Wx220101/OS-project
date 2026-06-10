@@ -1,0 +1,28 @@
+# ---- 编译产物 ----
+*.o
+*.a
+*.map
+kernel.bin
+kernel.bin.asm
+boot/*.bin
+
+# ---- 磁盘镜像(体积大且可由构建脚本重新生成)----
+*.img
+*.gz
+
+# ---- 命令构建中间产物 ----
+command/cmd.tar
+command/inst.tar
+command/readme
+command/hdldr.bin
+command/kernel.bin
+# 编译出的无扩展名命令可执行文件
+command/echo
+command/pwd
+command/ps
+command/clear
+command/help
+command/cat
+
+# ---- 其它 ----
+*.log
